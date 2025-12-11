@@ -1,0 +1,14 @@
+
+.btn-hover {
+    transition: all 0.3s ease-in-out;
+}
+.btn-hover:hover {
+    background-color: #00838f;
+    border-color: #00838f;
+    transform: translateY(-2px); /* легкий подъем при наведении */
+    box-shadow: 0 4px 8px rgba(32, 201, 151, 0.3);
+}
+
+.text-color {
+    color: #00838f ;
+}

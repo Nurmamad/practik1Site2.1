@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Hal, initial-scale=1.0">
+    <title>historyApplication</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/historyApplication.css">
+</head>
+<body class=" bg-body-tertiary h-100 d-flex flex-column">
+<nav class="navbar navbar-expand-lg bg-white">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-3" href="index.html" >
+            <img height="50"  src="img/logo1.png" alt="">
+            <span>Едем, но не точно</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="ms-auto p-2">
+                <a href="login.html" class="btn btn-dark btn-sm">Войти</a>
+                <a href="Registr.html" class="btn btn-dark btn-sm">Регистрация</a>
+                <a href="historyApplication.html" class="btn btn-dark btn-sm">Создание заявки</a>
+                <a href="contacts.html" class="btn btn-dark btn-sm">Контакты</a>
+                <a href="Admin.html" class="btn btn-dark btn-sm">Панель администратора</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container  mt-4 p-5 bg-white rounded-4 shadow-sm">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Заявки</th>
+        <th scope="col">Автомобиль</th>
+        <th scope="col">Дата начала</th>
+        <th scope="col">Дата окончания</th>
+        <th scope="col">Статус</th>
+        <th scope="col">Стоимость</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Tesla model X</td>
+        <td>15.03.2025</td>
+        <td>22.03.2025</td>
+        <td class="status-completed">Завершена</td>
+        <td>42 040 Р</td>
+        <td class="btn action-btn ">Детали</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>BMW M5</td>
+        <td>10.11.2025</td>
+        <td>13.11.2025</td>
+        <td class="status-completed">Завершена</td>
+        <td>32 550 Р </td>
+        <td class="btn action-btn ">Детали</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Porshe</td>
+        <td>01.01.2025</td>
+        <td>10.01.2025</td>
+        <td class="status-completed">Завершена</td>
+        <td>51 000 Р</td>
+        <td class="btn action-btn ">Детали</td>
+      </tr>
+      
+    </tbody>
+  </table>
+ 
+  
+</div>
+ <div class="container"><a href="application.html" class="btn btn-dark mt-4 btn-hover">Создать новую заявку</a></div>
+       
+
+
+
+
+
+
+
+<section class="py-3" >
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold text-dark mb-3">Как проходит тест-драйв?</h2>
+            <p class="text-muted lead">Всё, что нужно знать перед тестированием авто</p>
+        </div>
+        
+        <div class="bg-white p-5 rounded-4 shadow-sm">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h4 class=" text-color mb-4" >
+                        Простой процесс тест-драйва:
+                    </h4>
+                    
+                    <div class="benefits-list">
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="me-3">
+                                <div class="bg-primary bg-opacity-10 text-primary rounded-circle p-2">
+                                   <img src=" img/icons8-steering-wheel-24.png" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Запись на тест-драйв</h6>
+                                <p class="text-muted small mb-0">Выберите удобную дату и время через личный кабинет</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="me-3">
+                                <div class="bg-primary bg-opacity-10 text-primary rounded-circle p-2">
+                                   <img src="img/icons8-document-24.png" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Подготовка документов</h6>
+                                <p class="text-muted small mb-0">Водительские права и паспорт</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="me-3">
+                                <div class="bg-primary bg-opacity-10 text-primary rounded-circle p-2">
+                                <img src="img/icons8-training-50.png" height="25">
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Краткий инструктаж</h6>
+                                <p class="text-muted small mb-0">Знакомство с авто и подписание документов</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="me-3">
+                                <div class="bg-primary bg-opacity-10 text-primary rounded-circle p-2">
+                                    <img src="img/icons8-route-23.png" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Выбор маршрута</h6>
+                                <p class="text-muted small mb-0">Рекомендованные маршруты</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="me-3">
+                                <div class="bg-primary bg-opacity-10 text-primary rounded-circle p-2">
+                                   <img src="img/icons8-receive-cash-24.png" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Возврат автомобиля</h6>
+                                <p class="text-muted small mb-0">Проверка состояния авто и завершение тест-драйва</p>
+                            </div>
+                        </div>
+                    </div>
+                         
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="py-3  bg-white mt-auto shadow-sm">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+        <div class="col-md-4 mb-0 text-body-secondary">© 2025 Едем, но не точно</div>
+        <a href="index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" aria-label="Bootstrap">
+            </a>
+        <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="login.html" class="nav-link px-2 text-body-secondary">Войти</a></li>
+            <li class="nav-item"><a href="Registr.html" class="nav-link px-2 text-body-secondary">Регистрация</a>
+            <li class="nav-item"><a href="contacts.html" class="nav-link px-2 text-body-secondary">Контакты</a>
+        </ul>
+
+    </div>
+</footer>
+
+
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

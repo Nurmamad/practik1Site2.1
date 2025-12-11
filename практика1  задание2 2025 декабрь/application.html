@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ru" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Hal, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/application.css">
+</head>
+<body class="bg-body-tertiary h-100 d-flex flex-column">
+<nav class="navbar navbar-expand-lg bg-white">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-3" href="index.html" >
+            <img height="50"  src="img/logo1.png" alt="">
+            <span>Едем, но не точно</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="ms-auto ">
+                <a href="login.html" class="btn btn-dark btn-sm">Войти</a>
+                <a href="Registr.html" class="btn btn-dark btn-sm">Регистрация</a>
+                <a href="historyApplication.html" class="btn btn-dark btn-sm">Создание заявки</a>
+                <a href="contacts.html" class="btn btn-dark btn-sm">Контакты</a>
+                <a href="Admin.html" class="btn btn-dark btn-sm">Панель администратора</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="py-5">
+    <div class="container">
+        <div class="d-flex align-items-center column-gap-4 flex-wrap">
+            <h2>Создай свою заявку</h2>
+          
+        </div>
+        <div class="bg-white p-4 p-sm-5 rounded-4 shadow-sm mt-4">
+
+            <form action="" method="post">
+
+                <div class="mb-4">
+                    <label for="login" class="form-label">Ваш адрес</label>
+                    <input type="text" name="login" id="login" class="form-control " placeholder="Ваш адрес" required>
+                    <div class="invalid-feedback">Поле логин обязательно для заполнения.</div>
+                </div>
+                <div class="col-md">
+                        <div class="mb-4">
+                            <label for="phone" class="form-label">Ваш телефон</label>
+                            <input type="text" name="phone" id="phone" class="form-control" placeholder="+7 (999) 999-99-99" required>
+                            <div class="invalid-feedback"></div>
+                        </div>
+                    </div>
+
+                     <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-4">
+                            <label for="fio" class="form-label">Желаемая дата выдачи</label>
+                            <input type="date" name="fio" id="fio" class="form-control" placeholder="Желаемая дата выдачи" required>
+                            <div class="invalid-feedback"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="mb-4">
+                            <label for="phone" class="form-label">Желаемое время выдачи</label>
+                            <input type="time" name="phone" id="phone" class="form-control" placeholder="+7 (999) 999-99-99" required>
+                            <div class="invalid-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-4">
+                            <label for="fio" class="form-label">Серия и номер В/У</label>
+                            <input type="text" name="fio" id="fio" class="form-control" placeholder="Серия и номер В/У" required>
+                            <div class="invalid-feedback"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="mb-4">
+                            <label for="phone" class="form-label">Дата выдачи В/У</label>
+                            <input type="date" name="phone" id="phone" class="form-control" placeholder="+7 (999) 999-99-99" required>
+                            <div class="invalid-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="mb-4">
+                    <label for="email" class="form-label">   Саособ оплаты</label>
+                   <div class="dropdown">
+         <select class="form-select" >
+          <option selected>Наличые</option>
+       <option value="test-drive">Карта</option>
+    </select>      
+         </div>
+                </div>
+
+                <div class="mb-4">
+                    <label for="email" class="form-label"> Выберте марку машины и модель</label>
+                   <div class="dropdown">
+         <select class="form-select" >
+          <option selected>Kia K5</option>
+       <option value="test-drive">Kia Optima</option>
+       <option value="test-drive">Mercedes-Benz E W212 Coupe</option>
+       <option value="test-drive">Mercedes-Benz GLS 350D</option>
+       <option value="test-drive">Lexus ES 250</option>
+       <option value="test-drive">Lexus LX 450D</option>
+       <option value="test-drive">Volkswagen Passat</option>
+       <option value="test-drive"> Volkswagen Touareg</option>
+       <option value="test-drive">Toyota Camry 55</option>
+       <option value="test-drive">Toyota Tundra</option>
+      
+
+    </select>      
+         </div>
+                </div>
+
+                <div class="mb-4">
+                    <label for="email" class="form-label">Ваш электронная почта</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="mail@mail.com" required>
+                    <div class="invalid-feedback"></div>
+                </div>
+                      <button  class="btn btn-dark btn-hover">Отправить заявку</button>
+     </form>
+        </div>
+    </div>
+</section>
+
+
+<section class="py-5 cars-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="text-color mb-3 section-title">Наши автомобили</h2>
+        </div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="img/11d4fb12-c895-4ec1-84da-8dfded842e9e.jpg.600x400_q85_crop-smart_upscale.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">KIA K5</h5>
+       <p class="card-text"> <strong> Условия аренды</strong> <br>
+🞄Минимальный срок аренды
+1 сутки<br>
+🞄Минимальный возраст водителя
+20 лет<br>
+🞄 Стаж вождения - от 2 лет</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/192ebd7b-e4da-44f9-98e5-25cd66a03aaf.jpg.600x400_q85_crop-smart_upscale.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mercedes-Benz E W212 Coupe</h5>
+        <p class="card-text"> <strong> Условия аренды</strong> <br>
+🞄Минимальный срок аренды
+1 сутки<br>
+🞄Минимальный возраст водителя
+20 лет<br>
+🞄 Стаж вождения - от 2 лет</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/5445dbb4-48de-4303-a352-10e8d607f306.jpg.600x400_q85_crop-smart_upscale.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lexus ES 250</h5>
+        <p class="card-text"> <strong> Условия аренды</strong> <br>
+🞄Минимальный срок аренды
+1 сутки<br>
+🞄Минимальный возраст водителя
+20 лет<br>
+🞄 Стаж вождения - от 2 лет</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/6210ece0-cc48-449b-91c0-1c1d5f06a022.jpg.600x400_q85_crop-smart_upscale.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Volkswagen Passat</h5>
+        <p class="card-text"> <strong> Условия аренды</strong> <br>
+🞄Минимальный срок аренды
+1 сутки<br>
+🞄Минимальный возраст водителя
+20 лет<br>
+🞄 Стаж вождения - от 2 лет</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/07563a97-33a8-42a3-94f9-1bf39972c711.jpg.600x400_q85_crop-smart_upscale.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Toyota Camry 55</h5>
+        <p class="card-text"> <strong> Условия аренды</strong> <br>
+🞄Минимальный срок аренды
+1 сутки<br>
+🞄Минимальный возраст водителя
+20 лет<br>
+🞄 Стаж вождения - от 2 лет</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/dea70492-6b13-4cc0-a43a-0c159d93bd61.jpg.600x400_q85_crop-smart_upscale.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Toyota Land Cruiser Prado</h5>
+        <p class="card-text"> <strong> Условия аренды</strong> <br>
+🞄Минимальный срок аренды
+1 сутки<br>
+🞄Минимальный возраст водителя
+20 лет<br>
+🞄 Стаж вождения - от 2 лет</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/c892a346-190f-434c-91bb-9d84793502fb.jpg.600x400_q85_crop-smart_upscale.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lexus LX 450D</h5>
+         <p class="card-text"> <strong> Условия аренды</strong> <br>
+🞄Минимальный срок аренды
+1 сутки<br>
+🞄Минимальный возраст водителя
+20 лет<br>
+🞄 Стаж вождения - от 2 лет</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/f6d48ce8-d1f2-4f4b-aeb1-70edab89872e.jpg.600x400_q85_crop-smart_upscale.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mercedes-Benz GLS 350D</h5>
+         <p class="card-text"> <strong> Условия аренды</strong> <br>
+🞄Минимальный срок аренды
+1 сутки<br>
+🞄Минимальный возраст водителя
+20 лет<br>
+🞄 Стаж вождения - от 2 лет
+</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+   
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<footer class="py-3  bg-white mt-auto shadow-sm">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+        <div class="col-md-4 mb-0 text-body-secondary">© 2025 Едем, но не точно</div>
+        <a href="index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" aria-label="Bootstrap">
+            </a>
+        <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="login.html" class="nav-link px-2 text-body-secondary">Войти</a></li>
+            <li class="nav-item"><a href="Registr.html" class="nav-link px-2 text-body-secondary">Регистрация</a>
+            <li class="nav-item"><a href="contacts.html" class="nav-link px-2 text-body-secondary">Контакты</a>
+        </ul>
+
+    </div>
+</footer>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

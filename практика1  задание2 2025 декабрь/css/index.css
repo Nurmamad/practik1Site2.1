@@ -1,0 +1,73 @@
+.company-card {
+    color: #00838f;
+}
+
+.history-card {
+    color: #00838f;
+}
+
+
+.mission-card{
+    color: #00838f;
+}
+
+
+.test-drive {
+    color: #00838f;
+   
+}
+
+.card-advantages{
+    color: #00838f;
+}
+
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+}
+    
+.hover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+ }
+    
+.card-body {
+    padding: 2rem;
+}
+    
+  
+
+.company-card {
+    display: flex;
+    justify-content: center;
+}
+
+.company-card img {
+    border-radius: 15px;  
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}  
+    
+
+.btn-hover {
+    transition: all 0.3s ease-in-out;
+    margin-left: 3rem;
+    
+}
+.btn-hover:hover {
+    background-color: #00838f;
+    border-color: #00838f;
+    transform: translateY(-2px); /* легкий подъем при наведении */
+    box-shadow: 0 4px 8px rgba(32, 201, 151, 0.3);
+}
+
+.text-color {
+    color: #00838f ;
+}
+
+
+
+.feedback img{
+    margin-left: 3%;
+
+}

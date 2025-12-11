@@ -1,0 +1,47 @@
+
+.status-completed {
+    color: rgb(10, 114, 13) !important;
+  }
+
+.action-btn {
+            
+    border: none;
+    border-radius: 6px;
+    background-color: #2d2d2d;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+        
+.action-btn:hover {
+    background-color: #00838f;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 131, 143, 0.2);
+   }
+
+   
+.btn-hover {
+    transition: all 0.3s ease-in-out;
+}
+.btn-hover:hover {
+    background-color: #00838f;
+    border-color: #00838f;
+    transform: translateY(-2px); /* легкий подъем при наведении */
+    box-shadow: 0 4px 8px rgba(32, 201, 151, 0.3);
+}
+        
+
+.text-color {
+    color: #00838f ;
+}
+
+
+
+
+
+   
+    
+
+        
+       
+    
